@@ -19,6 +19,32 @@
 
 int main() {
 
+   int i ;
+   int n = 0 ;
+
+    printf( "Enter value : " ) ;
+    scanf( "%d", &n) ;
+    if (n % 2 == 1){
+         printf("Series:") ;
+     for ( i = 1 ; i <= n; i += 2)
+     {
+        printf(" %d",i);
+     }
+    }
+    else{
+        printf("Series:") ;
+     for ( i= n ; i >= 0; i -= 2)
+     {
+        printf(" %d",i) ;
+     }
+    }
+        
+    
+        
+     
+    //printf("%d",n);
+
+
     //--| YOUR CODE HERE
 
     return 0 ;
